@@ -364,6 +364,50 @@ img {
   font-size: 15px;
   text-align: center;
 }
+/*-------contact form1 ---*/
+.form1{
+display: flex;
+flex-direction: column;
+}
+.form-input{
+  border: 0 ;
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+
+}
+.informations{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 400px;
+  padding: 10px;
+  margin-right: 0;
+
+ 
+}
+.message{
+  display: flex;
+  justify-content: center;
+  width: 700px;
+  height: 50px;
+  margin-left: 60px;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 50px;
+
+}
+.label-message{
+  margin-left: 60px;
+  
+}
+
+.contener{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
 
 /* ----- Ordinateur : à partir de 1024 px de large ----- */
@@ -413,3 +457,4 @@ width: 50%;
   margin-bottom: 20px;
 }
 }
+
