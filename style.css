@@ -115,7 +115,19 @@ img {
   padding-top: 16px;
   padding-bottom: 16px;
 }
-
+@media(min-width){
+  .logo{
+    display: flex;
+    justify-content: space-between;}
+  .logo img{
+    width: 100%;
+    height: auto;
+  }
+  .menu{
+    display: flex;
+    flex-direction: column;
+  }
+}
 .logo {
   display: flex;
   align-items: center;
@@ -196,6 +208,12 @@ img {
 
 /* ----- Bandeau d'accroche ----- */
 /* ===== HERO ===== */
+@media(min-width){
+  .hero{
+    display: flex;
+    
+  }
+}
  .hero 
  { padding: 70px 0; 
 }
