@@ -213,6 +213,7 @@ img {
   margin-bottom: 15px;
   font-size: 16px;
   font-weight: 600;
+  
 }
 .hero h1 {
   margin: 0 0 20px;
@@ -375,6 +376,11 @@ img {
   text-align: center;
 }
 /*-------contact form1 ---*/
+.contact-text{
+  display: flex;
+  flex-direction: column;
+  padding: 9%;
+}
 .form1 {
   display: flex;
   flex-direction: column;
@@ -388,14 +394,17 @@ img {
 .informations {
   display: flex;
   flex-direction: column;
+ text-align: left;
+  gap:10%;
+  padding-left: 14px;
   background-color: white;
   width: 400px;
-  padding: 10px;
-  margin-right: 0;
+   margin-bottom:3opx;
+
 }
 .message {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   width: 700px;
   height: 50px;
   margin-left: 60px;
@@ -406,12 +415,32 @@ img {
 .label-message {
   margin-left: 60px;
 }
+.btn-message{
+   display: flex;
+   border-radius: 10px;
+   margin-top: 24px;
+  
+  border: 10px solid var(--couleur-thym);
+  background-color: var(--couleur-thym);
+  color: var(--couleur-blanc);
+  text-decoration: none;
+}
+
 
 .contener {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+
+  padding-bottom:30px;
+}
+
+  
+
+.bouton{
+  display: flex;
+
 }
 
 
@@ -505,6 +534,18 @@ width: 1000px;
 .label-message {
   margin-left: 60px;
 }
+
+}
+.informations .contener {
+  display: flex;
+  flex-direction: column;
+ text-align: left;
+  gap:10%;
+  padding-left: 14px;
+  background-color: white;
+  width: 100px;
+   margin-bottom:60px;
+    margin: 10px;
 
 }
 
